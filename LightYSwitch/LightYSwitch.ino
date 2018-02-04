@@ -32,6 +32,7 @@ const char* password = "PASSWORD_HERE";
 //Pin-settings
 static constexpr int switchPin = 14;  //a additional button to trigger something (use external pullup or software-pullup!)
 static constexpr int detectPin = 5;   //Detects the switch-state (use external pullup or software-pullup!)
+static constexpr int servoPin = 4;    //the pin your servo is connected to (It should be a PWM-compatible pin!)
 static constexpr int ledPin = 2;      //let's light something up
 
 //Servo-settings
